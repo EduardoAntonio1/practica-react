@@ -1,0 +1,14 @@
+.elemento {
+  margin: 2rem 0 2rem 0;
+}
+
+.dato {
+  background-color: #f3f3f3;
+  padding: 1px;
+  border-radius: 5px;
+  font-weight: 600;
+}
+
+.elementoCont {
+  width: 30rem;
+}
