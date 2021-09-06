@@ -5,8 +5,13 @@
   justify-content: space-between;
   padding: 1rem 10rem 1rem 10rem;
   width: 10;
-  height: 3rem;
   background-color: #ab47bc;
+}
+
+@media (max-width: 900px) {
+  .header {
+    flex-direction: column;
+  }
 }
 
 .logo {
@@ -20,12 +25,26 @@
   padding-right: 1rem;
 }
 
+@media (max-width: 900px) {
+  .nav {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+}
+
 .nav a {
   text-decoration: none;
   color: white;
   font-size: 20px;
   font-weight: 600;
   padding-left: 2rem;
+}
+
+@media (max-width: 900px) {
+  .nav a {
+    padding-top: 1rem;
+  }
 }
 
 .nav a:hover,
